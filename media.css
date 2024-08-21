@@ -1,0 +1,31 @@
+@media only screen and (max-width: 320px) {
+  .pass-box svg {
+    left: 13rem;
+  }
+}
+@media only screen and (max-width: 276px) {
+  .pass-box svg {
+    left: 12.5rem;
+  }
+  .pass-box input {
+    padding-left: 1rem;
+  }
+  .container {
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+}
+@media only screen and (max-width: 240px) {
+  .pass-box svg {
+    left: 10rem;
+  }
+  .pass-box input {
+    padding-left: 1rem;
+  }
+  .container {
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+}

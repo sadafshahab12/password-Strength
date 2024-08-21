@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: yellowgreen;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  min-height: 13rem;
+  max-width: 25rem;
+  padding: 2rem;
+  border-radius: 3rem;
+}
+.container h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.pass-box input {
+  width: 100%;
+  height: 3rem;
+  border-radius: 1rem;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  padding-left: 2rem;
+  outline: none;
+  margin-top: 1rem;
+}
+::placeholder{
+    font-size: 1.25rem;
+}
+.pass-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.pass-box svg {
+  background-color: rgb(65, 244, 202);
+  width: 1.5rem;
+  border-radius: 2rem;
+  fill: #050404;
+  position: absolute;
+  left: 17rem;
+  top: 1.75rem;
+
+}
+.msg {
+ font-size: 1rem;
+ padding-left: 1rem;
+ padding-top: 0.5rem;
+ display: none;
+}
+
+
